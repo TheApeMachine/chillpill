@@ -1,8 +1,8 @@
 .PHONY: feature bugfix push build release patch minor major playground development staging qa production
 
-# List of projects
+# List of projects (you need to change these)
 PROJECTS := gateway data measurement components
-REGISTRY := fanappregistry.azurecr.io
+REGISTRY := <your registry domain>
 
 # Function to create a branch
 define create_branch
